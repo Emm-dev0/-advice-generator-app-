@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(66, 64, 64);
+    padding: 10px 30px;
+}
+
+.container {
+    width: 400px;
+}
+
+.contents {
+    background-color: rgb(78, 78, 78);
+    height: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+.heading {
+    margin-bottom: 9px;
+    color: greenyellow;
+    font-size: small;
+}
+
+.quote {
+    font-size: 1.3rem;
+    color: white;
+}
+
+section {
+    display: flex ;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.line {
+    margin-right: 5px;
+    background-color: rgb(168, 167, 167);
+    height: 1px;
+    width: 45%;
+}
+
+.short-line {
+    margin-right: 5px;
+    height: 15px;
+    width: 4px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.ball {
+    width: 40px;
+    height: 40px;
+    margin-bottom: -35px;
+    background-color: rgb(158, 236, 79);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ball:hover {
+    cursor: pointer;
+}
+
+.box {
+    border-radius: 2px;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+}

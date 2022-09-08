@@ -20,6 +20,7 @@ body {
 
 .contents {
     background-color: rgb(78, 78, 78);
+    flex-wrap: wrap;
     height: auto;
     justify-content: center;
     display: flex;
@@ -31,19 +32,19 @@ body {
 }
 
 .heading {
-    margin-bottom: 9px;
+    margin-bottom: 20px;
     color: greenyellow;
     font-size: small;
 }
 
 .quote {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     color: white;
 }
 
 section {
     display: flex ;
-    margin-top: 20px;
+    margin-top: 30px;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;

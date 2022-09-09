@@ -22,6 +22,7 @@ body {
 
 .contents {
     background-color: rgb(78, 78, 78);
+    flex-wrap: wrap;
     height: auto;
     justify-content: center;
     display: flex;
